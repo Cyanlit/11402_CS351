@@ -1,175 +1,175 @@
-# CS351 — 課程儲存庫
-**學生：** Huang Yen-Chun (Cyan) · GitHub: [Cyanlit](https://github.com/Cyanlit)
-**課程：** CS351 — AI 輔助軟體開發 · 元智大學
- 
----
- 
-## 目錄
-1. [個人網站](#1-個人網站)
-2. [課程成果與學習紀錄](#2-課程成果與學習紀錄)
-3. [Project 0 — Two Sum](#3-project-0--two-sum)
-4. [Project B — CSV 迷你資料庫與查詢引擎](#4-project-b--csv-迷你資料庫與查詢引擎)
-5. [GitHub 工作流程證據](#5-github-工作流程證據)
-6. [AI 輔助開發反思](#6-ai-輔助開發反思)
----
-## 連結速覽
- 
-| 項目 | 連結 |
-|------|------|
-| 課程儲存庫（本 repo） | https://github.com/Cyanlit/11402_CS351 |
-| 個人網站 | https://cyanlit.github.io/ |
-| 個人網站原始碼 | https://github.com/Cyanlit/Cyanlit.github.io |
-| Project 0（Two Sum） | https://github.com/Cyanlit/11402_CS351_Project0 |
-| Project B（CSV 查詢引擎） | https://github.com/Cyanlit/11402_CS351_ProjectB |
-| 課程官方參考 | https://github.com/yfhuang/YZUCSE_CS351 |
+# CS351 — Course Repository
+**Student:** Huang Yen-Chun (Cyan) · GitHub: [Cyanlit](https://github.com/Cyanlit)
+**Course:** CS351 — AI-Assisted Software Development · Yuan Ze University
 
-## 1. 個人網站
- 
-**網址：** https://cyanlit.github.io/
-**Repo：** https://github.com/Cyanlit/Cyanlit.github.io
- 
-### 使用技術
-| 層級 | 選擇 |
+---
+
+## Table of Contents
+1. [Personal Website](#1-personal-website)
+2. [Course Deliverables and Learning Log](#2-course-deliverables-and-learning-log)
+3. [Project 0 — Two Sum](#3-project-0--two-sum)
+4. [Project B — CSV Mini Database and Query Engine](#4-project-b--csv-mini-database-and-query-engine)
+5. [GitHub Workflow Evidence](#5-github-workflow-evidence)
+6. [Reflections on AI-Assisted Development](#6-reflections-on-ai-assisted-development)
+---
+## Quick Links
+
+| Item | Link |
+|------|------|
+| Course repository (this repo) | https://github.com/Cyanlit/11402_CS351 |
+| Personal website | https://cyanlit.github.io/ |
+| Personal website source | https://github.com/Cyanlit/Cyanlit.github.io |
+| Project 0 (Two Sum) | https://github.com/Cyanlit/11402_CS351_Project0 |
+| Project B (CSV query engine) | https://github.com/Cyanlit/11402_CS351_ProjectB |
+| Official course reference | https://github.com/yfhuang/YZUCSE_CS351 |
+
+## 1. Personal Website
+
+**URL:** https://cyanlit.github.io/
+**Repo:** https://github.com/Cyanlit/Cyanlit.github.io
+
+### Tech Stack
+| Layer | Choice |
 |-------|--------|
-| 標記語言 | HTML5（單頁、語意化結構） |
-| 樣式 | 內嵌／輕量 CSS — 乾淨、極簡、以文字為主的版面 |
-| 託管 | GitHub Pages（透過 `Cyanlit.github.io` 提供免費靜態網站託管） |
-| 素材 | 個人大頭照，加上以個人簡介形式呈現的 README 內容作為頁面主體 |
- 
-### 設計理念
-- **極簡學術風格簡介** — 整體呈現比較像個人履歷／研究自述頁面，而非花俏的作品集，呼應重視 CS 基礎勝過視覺效果的取向
-- **以內容為主的版面配置** — 各區塊依序為：自我介紹 → 興趣領域 → 技術背景 → 個人理念，類似教師或研究生個人首頁的結構
-- **單一大頭照搭配文字區塊** — 不依賴大量圖形或動畫，讓頁面在任何裝置上都輕量且易讀
-- **回連 GitHub 個人頁面** — 將靜態網站與實際的 GitHub 帳號串連起來
-### 內容重點
-- **About Me** — 介紹作者為大四資工學生，專注於資料結構、演算法、作業系統、計算機組織與軟體開發，同時對底層實作細節與整體系統架構都有興趣
-- **Areas of Interest** — 資料結構與演算法、系統程式設計、後端開發
-- **Technical Background** — 程式語言：C++、Python、TypeScript；系統相關：Git／版本控制、基礎網路概念
-- **Philosophy** — 強調紮實的基礎是長期成長的根本，而這需要透過有紀律且持續的練習來建立
-### 個人想法與未來改進方向
-- 目前網站內容偏向文字密集；未來版本可以加入**專案展示區**，連結到 Project 0 / Project B，並附上 CI 徽章與測試結果範例
-- 加入**深色／淺色主題切換**，提升不同瀏覽環境下的舒適度
-- 加入**動態時間軸／近況區塊**，整理近期課程進度與 commit 紀錄，讓訪客能看到持續的進展，而不只是靜態的快照
-- 為技術背景區塊加入小型 **CSS grid 排版**，隨著技能清單增加時能更好地擴充
+| Markup | HTML5 (single page, semantic structure) |
+| Styling | Inline / lightweight CSS — clean, minimal, text-focused layout |
+| Hosting | GitHub Pages (free static site hosting via `Cyanlit.github.io`) |
+| Assets | Personal profile photo, plus README content presented as a personal bio for the page body |
+
+### Design Philosophy
+- **Minimalist academic-style profile** — the overall presentation is closer to a personal résumé / research statement page than a flashy portfolio, reflecting a focus on CS fundamentals over visual polish
+- **Content-first layout** — sections proceed in order: introduction → areas of interest → technical background → personal philosophy, similar to a faculty or graduate student homepage structure
+- **Single profile photo with text blocks** — avoids heavy graphics or animation, keeping the page lightweight and readable on any device
+- **Links back to GitHub profile** — connects the static site to the actual GitHub account
+### Content Highlights
+- **About Me** — introduces the author as a senior computer science student focused on data structures, algorithms, operating systems, computer organization, and software development, with interest in both low-level implementation details and overall system architecture
+- **Areas of Interest** — data structures and algorithms, systems programming, backend development
+- **Technical Background** — programming languages: C++, Python, TypeScript; systems: Git/version control, basic networking concepts
+- **Philosophy** — emphasizes that solid fundamentals are the basis for long-term growth, built through disciplined and consistent practice
+### Personal Thoughts and Future Improvements
+- The site content is currently fairly text-heavy; a future version could add a **project showcase section** linking to Project 0 / Project B, with CI badges and sample test results
+- Add a **dark/light theme toggle** to improve comfort across different viewing environments
+- Add a **dynamic timeline / recent activity section** summarizing recent course progress and commit history, so visitors can see ongoing progress rather than just a static snapshot
+- Add a small **CSS grid layout** for the technical background section, so it can scale better as the skills list grows
 ---
- 
-## 2. 課程成果與學習紀錄
- 
-### 我完成了什麼
-| 產出 | 說明 | 連結 |
+
+## 2. Course Deliverables and Learning Log
+
+### What I Completed
+| Deliverable | Description | Link |
 |-------------|-------------|------|
-| Project 0 | Two Sum — 兩種演算法解法（O(n²) 與 O(n)）、完整測試套件、CI/CD，以及 Docker 容器化 | [→ Repo](https://github.com/Cyanlit/11402_CS351_Project0) |
-| Project B | CSV 迷你資料庫與查詢引擎 — 透過 CLI 載入、建立索引並查詢 CSV 資料 | [→ Repo](https://github.com/Cyanlit/11402_CS351_ProjectB) |
-| Portfolio | 部署於 GitHub Pages 的極簡個人簡介網站 | [→ Site](https://cyanlit.github.io/) |
- 
-### 重要學習里程碑
-- **兩種演算法的對照** — 同時實作暴力解與基於雜湊表的解法，直接對比 O(n²) 與 O(n) 的行為差異
-- **結構化的專案文件** — Project 0 包含一整套依循軟體工程慣例的 `docs/` 文件（用途定義、規劃、SRS、SDS、測試計畫、驗收測試、追溯矩陣、部署指南、已知問題）
-- **使用 GitHub Actions 的 CI/CD** — 設定了能在每次 push 與 pull request 時自動建置 C++ 專案並執行測試套件的工作流程
-- **使用 Docker 進行容器化** — 撰寫 `Dockerfile`，使建置與測試流程能在容器中重現，不受主機環境影響
-- **AI 使用透明化** — Project 0 透過獨立的 `AI_POLICY.md` 與 `AI_USAGE.md` 文件，明確記錄 AI 的參與方式
-### 學習反思
- 
-在這門課之前，我使用 Git 的方式相當基礎——大多只是把完成的程式碼推上去，幾乎沒有結構或文件可言。CS351 大幅改變了這一點。
- 
-特別是在 Project 0 中，我並沒有只是寫完演算法就結束。我建立了一整套文件（SRS、SDS、測試計畫、驗收測試、追溯矩陣），盡量貼近真實小型軟體專案在規格訂定與驗證上的做法。這讓我不再只把問題想成「寫一個解 Two Sum 的函式」，而是當成一個包含需求、設計決策、測試涵蓋範圍與部署考量的小型系統。
- 
-在這個過程中與 AI 工具合作，讓我體會到：**AI 協助的成效，與我能多清楚地描述問題成正比**。當我提供精確的規格——確切的函式簽名、複雜度要求、具體的測試類別——產出的程式碼與文件需要修正的地方就少很多；相反地，如果問題描述得很模糊，結果就需要更多調整。
- 
+| Project 0 | Two Sum — two algorithmic approaches (O(n²) and O(n)), full test suite, CI/CD, and Docker containerization | [→ Repo](https://github.com/Cyanlit/11402_CS351_Project0) |
+| Project B | CSV mini database and query engine — load, index, and query CSV data via CLI | [→ Repo](https://github.com/Cyanlit/11402_CS351_ProjectB) |
+| Portfolio | Minimalist personal profile site deployed on GitHub Pages | [→ Site](https://cyanlit.github.io/) |
+
+### Key Learning Milestones
+- **Comparing two algorithms** — implemented both a brute-force solution and a hash-table-based solution, directly comparing the O(n²) and O(n) behavior
+- **Structured project documentation** — Project 0 includes a full set of `docs/` files following software engineering conventions (intended use, planning, SRS, SDS, test plan, acceptance tests, traceability matrix, deployment guide, known issues)
+- **CI/CD with GitHub Actions** — set up a workflow that automatically builds the C++ project and runs the test suite on every push and pull request
+- **Containerization with Docker** — wrote a `Dockerfile` so the build and test process is reproducible in a container, independent of the host environment
+- **Transparent AI usage** — Project 0 explicitly documents how AI was involved through separate `AI_POLICY.md` and `AI_USAGE.md` files
+### Reflections
+
+Before this course, my use of Git was fairly basic — mostly just pushing finished code with little structure or documentation. CS351 changed that significantly.
+
+In Project 0 in particular, I didn't stop at just writing the algorithm. I built a full set of documents (SRS, SDS, test plan, acceptance tests, traceability matrix), trying to mirror how a real small software project handles specification and verification. This shifted how I thought about the problem — no longer just "write a function that solves Two Sum," but a small system involving requirements, design decisions, test coverage, and deployment considerations.
+
+Working with AI tools throughout this process taught me that **the effectiveness of AI assistance is directly proportional to how clearly I can describe the problem**. When I provided precise specifications — exact function signatures, complexity requirements, specific test categories — the resulting code and documentation needed far fewer corrections; conversely, vaguely described problems required much more adjustment afterward.
+
 ---
- 
+
 ## 3. Project 0 — Two Sum
- 
-**Repo：** https://github.com/Cyanlit/11402_CS351_Project0
- 
-### 問題描述
- 
-給定一個整數陣列 `nums` 與一個整數 `target`，回傳兩個數字相加等於 `target` 的索引。
- 
-**前提假設：**
-- 每組輸入恰好有一組解
-- 不能重複使用同一個元素
-- 回傳順序不限
-**範例：**
+
+**Repo:** https://github.com/Cyanlit/11402_CS351_Project0
+
+### Problem Description
+
+Given an array of integers `nums` and an integer `target`, return the indices of the two numbers that add up to `target`.
+
+**Assumptions:**
+- Each input has exactly one solution
+- The same element cannot be used twice
+- The order of the returned indices does not matter
+**Example:**
 ```
 Input: nums = [2, 7, 11, 15], target = 9
 Output: [0, 1]
 Explanation: nums[0] + nums[1] == 2 + 7 == 9
 ```
- 
-### 演算法構想
- 
-要求實作兩種獨立解法，皆以 `std::vector<int>` 作為輸入與輸出：
- 
-| 函式 | 做法 | 時間複雜度 |
+
+### Algorithm Design
+
+Two independent solutions were required, both using `std::vector<int>` for input and output:
+
+| Function | Approach | Time Complexity |
 |----------|----------|------------------|
-| `TwoSumArray` | 使用兩層巢狀迴圈，逐一檢查每一對元素 | O(n²) |
-| `TwoSumHashTable` | 使用 STL 雜湊表（`unordered_map`）單次掃描，邊掃邊記錄已出現過的值與其索引 | O(n) |
- 
-雜湊表解法以少量額外記憶體換取執行時間的大幅下降，當輸入規模變大時這個差異會越來越明顯——是時間／空間取捨的具體例子。
- 
-### 儲存庫結構
- 
+| `TwoSumArray` | Uses a nested double loop to check every pair of elements | O(n²) |
+| `TwoSumHashTable` | Uses an STL hash table (`unordered_map`) in a single pass, recording previously seen values and their indices | O(n) |
+
+The hash-table solution trades a small amount of extra memory for a substantial reduction in runtime, with the difference becoming more pronounced as input size grows — a concrete example of a time/space trade-off.
+
+### Repository Structure
+
 ```
 .
-├── docs/                          # 完整的軟體文件集
-│   ├── 00_intended_use.md        # 問題定義與範圍
-│   ├── 01_plan.md                # 專案規劃
-│   ├── 02_SRS.md                 # 軟體需求規格
-│   ├── 03_SDS.md                 # 軟體設計規格
-│   ├── 04_test_plan.md           # 測試策略
-│   ├── 05_acceptance_tests.md    # 驗收標準
-│   ├── 06_traceability.md        # 需求追溯矩陣
-│   ├── 07_deploy.md              # 部署指南
-│   └── 08_known_issues.md        # 已知限制
-├── src/                           # 原始碼（TwoSumArray、TwoSumHashTable）
-├── include/                       # 標頭檔
-├── test/                          # 測試檔案
-├── .github/workflows/             # GitHub Actions CI 設定
-├── Dockerfile                     # 容器建置定義
-├── CHANGELOG.md                   # 版本紀錄
-├── AI_POLICY.md                   # 此專案的 AI 使用政策
-├── AI_USAGE.md                    # AI 產出內容的紀錄文件
-└── README.md                      # 專案總覽
+├── docs/                          # Complete software documentation set
+│   ├── 00_intended_use.md        # Problem definition and scope
+│   ├── 01_plan.md                # Project plan
+│   ├── 02_SRS.md                 # Software requirements specification
+│   ├── 03_SDS.md                 # Software design specification
+│   ├── 04_test_plan.md           # Test strategy
+│   ├── 05_acceptance_tests.md    # Acceptance criteria
+│   ├── 06_traceability.md        # Requirements traceability matrix
+│   ├── 07_deploy.md              # Deployment guide
+│   └── 08_known_issues.md        # Known limitations
+├── src/                           # Source code (TwoSumArray, TwoSumHashTable)
+├── include/                       # Header files
+├── test/                          # Test files
+├── .github/workflows/             # GitHub Actions CI configuration
+├── Dockerfile                     # Container build definition
+├── CHANGELOG.md                   # Version history
+├── AI_POLICY.md                   # AI usage policy for this project
+├── AI_USAGE.md                    # Documentation of AI-generated content
+└── README.md                      # Project overview
 ```
- 
-### 開發過程
- 
-1. **先定義範圍** — 在動手寫任何程式碼之前，先與 AI 一起草擬 `00_intended_use.md` 與 `01_plan.md`，釐清這次作業中「Two Sum」的確切意涵（輸入格式、輸出格式、需要支援的邊界情況）
-2. **撰寫 SRS 與 SDS** — 將非正式的問題描述轉化為正式需求（`02_SRS.md`），以及涵蓋陣列法與雜湊表法兩種做法的設計文件（`03_SDS.md`）
-3. **實作兩種解法** — `TwoSumArray`（O(n²)）與 `TwoSumHashTable`（O(n)），皆接受 `std::vector<int>` 與目標值，並回傳 `std::vector<int>` 形式的索引
-4. **建立測試套件** — 依照 `04_test_plan.md` 與 `05_acceptance_tests.md` 的規劃，涵蓋基本範例、負數、重複值、答案包含零，以及最小／小型輸入規模
-5. **設定 CI/CD** — 撰寫 GitHub Actions 工作流程（`.github/workflows/`），在每次 `push` 與 `pull_request` 時自動觸發，建置專案並執行完整測試套件
-6. **將建置容器化** — 撰寫 `Dockerfile`，讓專案可以透過以下方式建置與測試：
+
+### Development Process
+
+1. **Define scope first** — before writing any code, drafted `00_intended_use.md` and `01_plan.md` together with AI to clarify exactly what "Two Sum" meant for this assignment (input format, output format, edge cases to support)
+2. **Write SRS and SDS** — turned the informal problem description into formal requirements (`02_SRS.md`) and a design document covering both the array-based and hash-table approaches (`03_SDS.md`)
+3. **Implement both solutions** — `TwoSumArray` (O(n²)) and `TwoSumHashTable` (O(n)), both accepting `std::vector<int>` and a target value, returning indices as `std::vector<int>`
+4. **Build the test suite** — following `04_test_plan.md` and `05_acceptance_tests.md`, covering basic examples, negative numbers, duplicates, answers containing zero, and minimal/small input sizes
+5. **Set up CI/CD** — wrote a GitHub Actions workflow (`.github/workflows/`) triggered on every `push` and `pull_request`, building the project and running the full test suite
+6. **Containerize the build** — wrote a `Dockerfile` so the project can be built and tested via:
    ```bash
    docker build -t twosum .
    docker run twosum
    ```
-7. **記錄 AI 參與情況** — 維護 `AI_POLICY.md`（此專案中 AI 的使用方式與限制）以及 `AI_USAGE.md`（記錄哪些內容實際由 AI 產生、哪些為自行撰寫）
-### 本機建置
- 
+7. **Document AI involvement** — maintained `AI_POLICY.md` (how AI was used and its limitations in this project) and `AI_USAGE.md` (recording which content was actually AI-generated versus written independently)
+### Local Build
+
 ```bash
-# 複製儲存庫
+# Clone the repository
 git clone https://github.com/Cyanlit/11402_CS351_Project0.git
 cd 11402_CS351_Project0
- 
-# 建置專案
+
+# Build the project
 cd src
 g++ -std=c++17 -o twosum main.cpp twosum.cpp
- 
-# 執行測試
+
+# Run tests
 ./twosum
 ```
- 
-### 開發歷程
- 
-- **共 27 次 commit**，大致依循：建立骨架 → 核心演算法實作 → 測試套件 → CI/CD 設定 → Docker 容器化 → 文件補充與整理
-- 全程在 **`main`** 分支上進行整合
-- `docs/` 資料夾隨著程式開發逐步建立，而非事後補寫
-### 測試結果
- 
-- 測試套件涵蓋：標準範例、負數輸入、重複值、答案包含零的情況，以及最小規模陣列
-- 所有測試在每次 push 與 pull request 時透過 GitHub Actions 自動執行：
+
+### Development History
+
+- **27 commits total**, roughly following: skeleton setup → core algorithm implementation → test suite → CI/CD configuration → Docker containerization → documentation
+- All integration done on the **`main`** branch
+- The `docs/` folder was built incrementally alongside development, not written after the fact
+### Test Results
+
+- The test suite covers: standard examples, negative inputs, duplicate values, cases where the answer includes zero, and minimal-size arrays
+- All tests run automatically via GitHub Actions on every push and pull request:
 ```
 push / pull_request
       │
@@ -182,83 +182,83 @@ push / pull_request
    ✅ pass → CI green
    ❌ fail → CI red
 ```
- 
-### 專案狀態
- 
-- ✅ 核心演算法已完成（`TwoSumArray`、`TwoSumHashTable`）
-- ✅ 涵蓋邊界情況的完整測試套件
+
+### Project Status
+
+- ✅ Core algorithms complete (`TwoSumArray`, `TwoSumHashTable`)
+- ✅ Full test suite covering edge cases
 - ✅ GitHub Actions CI/CD
-- ✅ Docker 容器化
-- ✅ 完整的軟體文件集（SRS、SDS、測試計畫、追溯矩陣、部署、已知問題）
-### 專案亮點
- 
-這個專案最有價值的部分並不是演算法本身——Two Sum 是個眾所皆知的題目——而是**圍繞著它建立起完整的文件流程**。一開始覺得為這麼小的題目寫 SRS 與 SDS 似乎有點殺雞用牛刀，但這個過程逼著我把平常憑直覺做的決定講清楚，例如「到底什麼算是邊界情況？」以及「要怎麼證明需求真的有被測試到？」（也就是追溯矩陣）。AI 在快速搭建每份文件的架構上很有幫助，但實際的技術內容——特別是需求、設計與測試之間的對應關係——還是得自己填寫並驗證。
- 
+- ✅ Docker containerization
+- ✅ Complete software documentation set (SRS, SDS, test plan, traceability matrix, deployment, known issues)
+### Project Highlights
+
+The most valuable part of this project isn't the algorithm itself — Two Sum is a well-known problem — but **the complete documentation process built around it**. At first, writing an SRS and SDS for such a small problem felt like overkill, but the process forced me to make explicit decisions I would normally make intuitively, such as "what actually counts as an edge case?" and "how do I demonstrate that requirements are actually covered by tests?" (i.e., the traceability matrix). AI was helpful for quickly scaffolding the structure of each document, but the actual technical content — especially the mapping between requirements, design, and tests — still had to be filled in and verified by me.
+
 ---
- 
-## 4. Project B — CSV 迷你資料庫與查詢引擎
- 
-**Repo：** https://github.com/Cyanlit/11402_CS351_ProjectB
- 
-### 專案目標
- 
-在 CSV 檔案之上建立一個輕量級資料庫系統——載入一個 CSV 檔案後，讓使用者能對資料進行類似查詢的操作（篩選、排序、基本的 CRUD），概念上類似一個非常小型的 SQL 引擎。
- 
-### 主要功能
- 
-- **CSV 檔案處理** — 載入、解析並管理 CSV 檔案
-- **查詢引擎** — 執行篩選、排序與操作資料列的查詢
-- **命令列介面** — 提供簡單的指令來載入檔案與執行查詢
-- **效能考量** — 在資料處理與檢索上以效率為設計考量
-### 資料設計
- 
-- 輸入資料直接從 CSV 檔讀取，每一列視為一筆紀錄、每一欄視為一個欄位
-- 查詢引擎針對這些紀錄運作，支援篩選式查詢（例如選出符合條件的列）以及基本的排序／操作
-- 選擇使用 Pandas 處理資料、SQLite 作為後端儲存，反映出「迷你資料庫」的設計理念——快速將 CSV 資料轉換為結構化、可查詢的形式，而不是從零開始實作一套儲存引擎
-### 使用方式
- 
+
+## 4. Project B — CSV Mini Database and Query Engine
+
+**Repo:** https://github.com/Cyanlit/11402_CS351_ProjectB
+
+### Project Goal
+
+Build a lightweight database system on top of CSV files — after loading a CSV file, allow the user to perform query-like operations on the data (filtering, sorting, basic CRUD), conceptually similar to a very small SQL engine.
+
+### Key Features
+
+- **CSV file handling** — load, parse, and manage CSV files
+- **Query engine** — execute filtering, sorting, and row manipulation queries
+- **Command-line interface** — simple commands for loading files and running queries
+- **Performance considerations** — designed with efficiency in mind for data processing and retrieval
+### Data Design
+
+- Input data is read directly from CSV files, with each row treated as a record and each column as a field
+- The query engine operates on these records, supporting filter-based queries (e.g., selecting rows matching a condition) as well as basic sorting/manipulation
+- The choice of Pandas for data handling and SQLite as the storage backend reflects the "mini database" design philosophy — quickly converting CSV data into a structured, queryable form rather than implementing a storage engine from scratch
+### Usage
+
 ```bash
-# 安裝相依套件
+# Install dependencies
 pip install -r requirements.txt
- 
-# 執行應用程式
+
+# Run the application
 python main.py
- 
-# 應用程式內的範例指令
+
+# Example commands within the application
 load <filename>
 query <your_query>
 ```
- 
-### 開發過程
- 
-1. **先確立專案目標** — 在實作之前先寫出專案概述與功能清單（CSV 處理、查詢引擎、CLI、效能），讓範圍從一開始就清楚
-2. **選擇技術堆疊** — 以 Python 作為實作語言，搭配 Pandas 處理資料、SQLite 作為後端儲存，在「從零開始打造」的學習價值與實務工具之間取得平衡
-3. **實作核心流程** — `load <filename>` 將 CSV 載入記憶體／資料庫，`query <your_query>` 對其執行篩選／排序操作
-4. **與 AI 反覆協作** — 描述整體架構（CSV 載入 → 儲存層 → 查詢引擎 → CLI），請 AI 協助搭建各個部分的初版，再用實際的 CSV 範例檔案手動測試 CLI，確認輸出結果符合預期
-### 開發歷程
- 
-- **共 4 次 commit**，涵蓋：初始專案設定與 README、核心 CSV 載入邏輯、查詢引擎實作，以及 CLI 整合
-- 這個規模較小的專案直接在 **`main`** 分支上開發
-### 專案亮點
- 
-這個專案與 Project 0 形成很好的對比。Project 0 著重在單一、定義明確的演算法，搭配大量文件；Project B 則著重在**將多個元件整合成一個可運作的工具**——檔案讀寫、儲存層、查詢解析器與 CLI 都必須正確協同運作。最大的收穫是：每個元件單獨「看起來沒問題」並不夠；我必須實際以真實的 CSV 範例檔案執行 `load` 再執行 `query`，才能抓到單純看程式碼不會發現的整合性問題。
- 
+
+### Development Process
+
+1. **Establish project goals first** — wrote a project overview and feature list (CSV handling, query engine, CLI, performance) before implementation, so scope was clear from the start
+2. **Choose the tech stack** — used Python as the implementation language, with Pandas for data handling and SQLite as the storage backend, balancing the learning value of building from scratch against using practical tools
+3. **Implement the core flow** — `load <filename>` loads a CSV into memory/database, `query <your_query>` performs filter/sort operations on it
+4. **Iterative collaboration with AI** — described the overall architecture (CSV loading → storage layer → query engine → CLI), had AI help scaffold initial versions of each part, then manually tested the CLI with real sample CSV files to confirm the output matched expectations
+### Development History
+
+- **4 commits total**, covering: initial project setup and README, core CSV loading logic, query engine implementation, and CLI integration
+- This smaller-scale project was developed directly on the **`main`** branch
+### Project Highlights
+
+This project provides a good contrast to Project 0. Project 0 focused on a single, well-defined algorithm with extensive documentation; Project B focused on **integrating multiple components into a working tool** — file I/O, the storage layer, the query parser, and the CLI all had to work correctly together. The biggest takeaway: each component "looking fine" individually wasn't enough; I had to actually run `load` followed by `query` against real sample CSV files to catch integration issues that wouldn't be visible just from reading the code.
+
 ---
- 
-## 5. GitHub 工作流程證據
- 
-### Commit 歷史
-- **Project 0：** 27 次 commit — 反映從骨架建立、實作、測試、CI、Docker 到文件的完整進程
-- **Project B：** 12 次 commit — 每個主要開發階段一次（設定、CSV 處理、查詢引擎、CLI）
-- **個人網站：** 11 次 commit — 內容與版面的多次調整
-### 分支
-- 三個儲存庫目前皆使用 **`main`** 作為主要分支
-- Project 0 較多的 commit 數量與獨立的 `docs/` 資料夾，反映出它是這門課中工程化程度較高的產出；Project B 則因有 Project 0的開發經驗與feature branch的使用，導致commith次數較少
-- 未來可以考慮將每個重大變更拆分為 feature branch 並搭配 pull request，以更明確地展現 code review 流程
-### CI/CD（Project 0）
- 
-`.github/workflows/` 下的 GitHub Actions 工作流程會在每次 push 與 pull request 時觸發：
- 
+
+## 5. GitHub Workflow Evidence
+
+### Commit History
+- **Project 0:** 27 commits — reflecting the full progression from skeleton setup, implementation, testing, CI, Docker, to documentation
+- **Project B:** 12 commits — roughly one per major development phase (setup, CSV handling, query engine, CLI)
+- **Personal website:** 11 commits — multiple iterations on content and layout
+### Branches
+- All three repositories currently use **`main`** as the primary branch
+- Project 0's higher commit count and dedicated `docs/` folder reflect that it was the more heavily engineered deliverable in this course; Project B had fewer commits, partly due to experience gained from Project 0 and the use of feature branches
+- In the future, splitting major changes into feature branches with pull requests could more clearly demonstrate a code review process
+### CI/CD (Project 0)
+
+The GitHub Actions workflow under `.github/workflows/` triggers on every push and pull request:
+
 ```
 push / pull_request
       │
@@ -271,60 +271,59 @@ push / pull_request
    ✅ pass → build marked successful
    ❌ fail → build marked failed
 ```
- 
-### 容器化（Project 0）
- 
-專案中包含 `Dockerfile`，使建置與測試環境可重現：
- 
+
+### Containerization (Project 0)
+
+The project includes a `Dockerfile`, making the build and test environment reproducible:
+
 ```bash
 docker build -t twosum .
 docker run twosum
 ```
- 
-這代表 CI 環境、評分者的機器與我自己的機器，理論上都應該得到相同的建置與測試結果。
- 
+
+This means the CI environment, a grader's machine, and my own machine should, in theory, all produce the same build and test results.
+
 ---
- 
-## 6. AI 輔助開發反思
- 
-這門課中我主要使用的 AI 工具，是整合在編輯器中的 AI 程式設計助理，三項產出（個人網站、Project 0、Project B）都使用了它。
- 
-### 我如何與 AI 互動
- 
-我並沒有把 AI 當成一次性的程式碼產生器來使用，而是將它納入一個反覆迭代的循環中：
- 
+
+## 6. Reflections on AI-Assisted Development
+
+The main AI tool I used in this course was an AI coding assistant integrated into the editor, used across all three deliverables (personal website, Project 0, Project B).
+
+### How I Interacted with AI
+
+Rather than treating AI as a one-shot code generator, I incorporated it into an iterative loop:
+
 ```
-我  →  描述目標、限制條件與預期輸出
-AI  →  產出程式碼、文件或設定檔草稿
-我  →  建置／執行，對照規格檢查結果
-我  →  「這個測試案例缺漏了」／「SRS 的這部分要修改」／「Dockerfile 需要調整」
-AI  →  更新對應的檔案
-我  →  重新測試，確認無誤後再 commit
+Me  →  describe the goal, constraints, and expected output
+AI  →  produce a draft of code, documentation, or configuration
+Me  →  build/run, check results against the spec
+Me  →  "this test case is missing" / "this part of the SRS needs revision" / "the Dockerfile needs adjusting"
+AI  →  update the corresponding files
+Me  →  re-test, then commit once verified
 ```
- 
-這個循環在每個元件上都重複進行——演算法實作、每一份文件、CI 工作流程，以及 Dockerfile。
- 
-### 範例一 — Project 0 的文件集
- 
-我並沒有直接要求「給我一份 README」，而是分別請 AI 產出 `docs/` 資料夾中的每一份文件——先是用途定義，再來是 SRS、SDS、測試計畫，依此類推。一份一份來、並讓前一份文件作為下一份的脈絡，產出的文件之間遠比一次要求整套文件來得一致且可追溯。之後我再逐一檢視每份文件，自行修正其中的技術細節（例如確切的複雜度說明、確切的測試案例描述）。
- 
-### 範例二 — Project 0 的演算法
- 
-針對 `TwoSumArray` 與 `TwoSumHashTable`，我明確指定了函式簽名（`std::vector<int>` 輸入輸出）與要求的複雜度（分別為 O(n²) 與 O(n)），請 AI 實作兩種版本。接著我問了一句：*「這些實作的測試套件應該涵蓋哪些邊界情況？」*——AI 列出了重複值、答案包含零等我原本沒特別考慮到的情況；我確認這些案例合理後，再請 AI 撰寫對應的測試程式碼。
- 
-### 範例三 — Project B
- 
-在 Project B 中，我用使用者實際會輸入的指令（`load <filename>`、`query <your_query>`）來描述整個流程——CSV 載入、查詢引擎與 CLI。AI 一次產出了相關檔案的初版實作。由於這個專案前期的文件比 Project 0 少很多，我更依賴**以範例 CSV 檔案進行手動測試**來驗證正確性——實際執行 `load` 與 `query` 指令，並對照輸出結果是否符合預期。
- 
-### 哪些事情由我自己完成
- 
-- **決定範圍與結構** — 決定 Project 0 中 `docs/` 各份文件該包含什麼內容，以及 Project B 的最小功能集應該如何劃定
-- **驗證複雜度宣稱** — 確認 `TwoSumArray` 與 `TwoSumHashTable` 的實際行為真的符合文件中所宣稱的 O(n²) 與 O(n)
-- **執行並檢視測試結果** — 確認測試套件在本機與 CI 上都能通過，而不是只看 AI 產生的測試「看起來合理」就直接相信
-- **commit 前的最終檢查** — 每一次 commit 所包含的程式碼與文件，都是我親自閱讀並理解過的
-### 我學到的事
- 
-1. **文件也適合採用與程式碼相同的迭代方式撰寫。** 一次處理一份文件、並延續前一份的脈絡，比一次要求整套文件，能產出更連貫的 `docs/` 內容。
-2. **複雜度與正確性的宣稱需要獨立驗證。** AI 實作出來的演算法可能「看起來」符合所宣稱的複雜度，但確認它是否真的如此、以及測試是否確實涵蓋相關情況，是我自己的責任。
-3. **規模較小、範圍明確的專案（如 Project B），會將驗證的重擔轉移到手動測試上。** 在沒有完整文件／測試計畫架構的情況下，使用真實輸入檔案進行實際操作，是我發現整合性問題的主要方式。
- 
+
+This loop repeated for every component — algorithm implementations, each document, the CI workflow, and the Dockerfile.
+
+### Example 1 — Project 0's Documentation Set
+
+Instead of asking "give me a README," I had AI produce each document in the `docs/` folder separately — first the intended use definition, then SRS, SDS, test plan, and so on. Going one document at a time, with each previous document as context for the next, produced documents that were far more consistent and traceable than requesting the whole set at once. I then reviewed each document individually and corrected the technical details myself (e.g., exact complexity statements, exact test case descriptions).
+
+### Example 2 — Project 0's Algorithms
+
+For `TwoSumArray` and `TwoSumHashTable`, I explicitly specified the function signatures (`std::vector<int>` input/output) and required complexity (O(n²) and O(n) respectively), and had AI implement both versions. I then asked: *"What edge cases should the test suite for these implementations cover?"* — AI listed cases like duplicate values and answers containing zero that I hadn't specifically considered; after confirming these were reasonable, I had AI write the corresponding test code.
+
+### Example 3 — Project B
+
+For Project B, I described the entire flow — CSV loading, the query engine, and the CLI — using the actual commands a user would type (`load <filename>`, `query <your_query>`). AI produced an initial implementation of the relevant files in one pass. Since this project had much less upfront documentation than Project 0, I relied more heavily on **manual testing with sample CSV files** to verify correctness — actually running `load` and `query` commands and checking that the output matched expectations.
+
+### What I Did Myself
+
+- **Determined scope and structure** — decided what each document in Project 0's `docs/` folder should contain, and how to define the minimal feature set for Project B
+- **Verified complexity claims** — confirmed that the actual behavior of `TwoSumArray` and `TwoSumHashTable` truly matched the documented O(n²) and O(n) claims
+- **Ran and reviewed test results** — confirmed the test suite passed both locally and in CI, rather than trusting AI-generated tests just because they "looked reasonable"
+- **Final review before each commit** — every piece of code and documentation in each commit was something I personally read and understood
+### What I Learned
+
+1. **Documentation can be written iteratively, just like code.** Working on one document at a time, building on the context of the previous one, produced more coherent `docs/` content than requesting the entire set at once.
+2. **Complexity and correctness claims need independent verification.** AI-implemented algorithms may "look like" they meet the claimed complexity, but confirming whether that's actually true — and whether tests genuinely cover the relevant cases — is my own responsibility.
+3. **Smaller, well-scoped projects (like Project B) shift the burden of verification onto manual testing.** Without a full documentation/test plan structure, hands-on testing with real input files was my primary way of catching integration issues.
